@@ -1,7 +1,24 @@
-### $ sudo -hex -vvv
+```console
+user@gitreadme:~$ cat ./readme.txt
+zsh: permisssion denied: ./readme.txt
 
-<span style="color:#ffffff; background-color:#333333; padding: 5px; border-radius: 3px; font-family: 'Courier New', monospace;">$ sudo hex -vvv</span>
+user@gitreadme:~$ cat /etc/passwd | awk -F: '{print "User:", $1, "UserID:", $3, "GroupID:", $4, "Home:", $6, "Shell:", $7}'
+User: root UserID: 0 GroupID: 0 Home: /root Shell: /usr/bin/zsh
+User: user UserID: 1000 GroupID: 1000 Home: /home Shell: /usr/bin/zsh
 
+user@gitreadme:~$ ./sudohex -vvv
+SudoHex v0.1 - Exploiting suid vulnerability
+[+] Escalating privileges to root...
+
+[>] Grabbing available SUIDs
+[>] Found : nmap 2.02 with suid
+[>] Run : nmap --interactive 
+[>] Input : !sh
+
+[+] Privilege escalation complete.
+[root@gitreadme]# cat readme.txt
+
+``` 
 
 <!--
 **sudo-hex/sudo-hex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
