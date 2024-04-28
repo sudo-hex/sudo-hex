@@ -1,4 +1,7 @@
-### $ sudo -Hex --Verbosity 3
+### $ sudo -hex -vvv
+
+<span style="color:#ffffff; background-color:#333333; padding: 5px; border-radius: 3px; font-family: 'Courier New', monospace;">$ sudo hex -vvv</span>
+
 
 <!--
 **sudo-hex/sudo-hex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
