@@ -1,4 +1,4 @@
-<span style="color:red">### $ sudo -Hex --Verbosity 3</span>
+### $ sudo -Hex --Verbosity 3
 
 <!--
 **sudo-hex/sudo-hex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
