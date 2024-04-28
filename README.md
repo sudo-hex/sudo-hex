@@ -16,9 +16,18 @@ SudoHex v0.1 - Exploiting suid vulnerability
 [>] Input : !sh
 
 [+] Privilege escalation complete.
-[root@gitreadme]# cat readme.txt
-
+[root@gitreadme]# cat ./readme.txt
 ``` 
+
+### Introduction 
+Cybersecurity professional,  Red Team wannabe, CTFer and Oh... SINT 
+
+### Expertise
+- **Security Frameworks** : Implementing industry-standards methodologies accross multiple verticals.
+- **OSINT** : *Why do I need privacy ? I have nothing to hide !* A few moments later --> :suprised_pickachu_face: 
+- **Ethical Hacking** : Breaking into systems and reporting flaws.
+- **Cybercrime prevention** : Helping lawyers talk to engineers.
+
 
 <!--
 **sudo-hex/sudo-hex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
